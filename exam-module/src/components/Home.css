@@ -1,0 +1,27 @@
+ul {
+    padding: 0;
+}
+
+.exam-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000080;
+    border-radius: 5px;
+}
+
+.attend-button {
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.attend-button:hover {
+    background-color: #1e90ff;
+}
